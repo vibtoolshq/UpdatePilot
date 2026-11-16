@@ -1,0 +1,7 @@
+test/
+examples/
+.github/
+.vscode/
+*.test.js
+jsconfig.json
+.editorconfig

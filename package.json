@@ -1,0 +1,71 @@
+{
+  "name": "update-pilot",
+  "version": "0.0.1",
+  "description": "One-click safe self-hosted update engine for Node.js apps",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/types/index.d.ts",
+      "import": "./src/index.js",
+      "require": "./src/index.js"
+    },
+    "./adapters/*": {
+      "types": "./src/types/index.d.ts",
+      "import": "./src/adapters/*.js",
+      "require": "./src/adapters/*.js"
+    },
+    "./testing/traffic-router-contract": {
+      "types": "./src/types/index.d.ts",
+      "import": "./testing/traffic-router-contract.js",
+      "require": "./testing/traffic-router-contract.js"
+    }
+  },
+  "files": [
+    "src",
+    "testing",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:package": "node scripts/package-smoke.js",
+    "test:types": "npx --yes --package typescript@5.9.3 -- tsc --noEmit --strict --module NodeNext --moduleResolution NodeNext --target ES2022 type-tests/public-api.ts",
+    "lint": "eslint .",
+    "prepublishOnly": "npm test && npm run test:types && npm run test:package"
+  },
+  "keywords": [
+    "self-hosted",
+    "auto-update",
+    "docker",
+    "github-releases",
+    "rollback",
+    "deployment",
+    "zero-downtime",
+    "nodejs"
+  ],
+  "author": "mdnajmul729080",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdnajmul729080/UpdatePilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdnajmul729080/UpdatePilot/issues"
+  },
+  "homepage": "https://github.com/mdnajmul729080/UpdatePilot#readme",
+  "dependencies": {
+    "dockerode": "4.0.11",
+    "dockerode-compose": "^1.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.14.0"
+  }
+}

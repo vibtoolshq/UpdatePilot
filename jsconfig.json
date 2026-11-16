@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": false
+  },
+  "include": ["src/**/*", "examples/**/*", "test/**/*"],
+  "exclude": ["node_modules"]
+}
