@@ -60,7 +60,7 @@
   },
   "homepage": "https://github.com/mdnajmul729080/UpdatePilot#readme",
   "dependencies": {
-    "dockerode": "4.0.11",
+    "dockerode": "5.0.1",
     "dockerode-compose": "^1.4.0"
   },
   "devDependencies": {
