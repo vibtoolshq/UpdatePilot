@@ -15,7 +15,7 @@ jobs:
       matrix:
         node: ["20.19.0", "22.12.0", "26.12.0"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
@@ -33,7 +33,7 @@ jobs:
       matrix:
         node: ["20.19.0", "22.12.0", "26.12.0"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
@@ -44,7 +44,7 @@ jobs:
   example:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: 26.12.0
@@ -57,7 +57,7 @@ jobs:
   docker-candidate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: 26.12.0
