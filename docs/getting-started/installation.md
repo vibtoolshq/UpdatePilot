@@ -1,3 +1,9 @@
+---
+title: "Installation and Requirements"
+description: "Supported Node.js versions, npm installation, and deployment prerequisites."
+order: 1
+---
+
 # Installation and requirements
 
 This is an npm-distributed ESM package with Node's supported synchronous CommonJS interop. `package.json` declares `"node": "^20.19.0 || >=22.12.0"`, and package name `update-pilot` at version `0.0.1`. Node 21 and Node 22 versions below 22.12 are **not** declared supported. The installed package is an embedded library; no CLI command, resident daemon, hosted control plane, or standalone dashboard is installed.

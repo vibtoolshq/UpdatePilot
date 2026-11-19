@@ -1,3 +1,9 @@
+---
+title: "Quickstart"
+description: "Minimal release check and safe dry-run example."
+order: 2
+---
+
 # Quickstart: safe release check and a deployment dry run
 
 This example is **executable with locally injected fake I/O**; it never calls GitHub or Docker. For live updates you must supply a real router provider and reachable infrastructure (see [integration](../guides/integration.md)). The configuration itself is validated by the package.

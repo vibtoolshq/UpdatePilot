@@ -1,3 +1,9 @@
+---
+title: "Public API Reference"
+description: "Public runtime exports, package subpaths and API navigation."
+order: 0
+---
+
 # Public API index
 
 **Runtime export source:** `src/index.js`. **Types:** `src/types/index.d.ts`. **Published subpaths:** `package.json#exports`. The root package exports **20 named runtime values**; the test-helper subpath exports one additional public function.

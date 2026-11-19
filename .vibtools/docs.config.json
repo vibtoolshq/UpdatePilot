@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.vib.tools/schemas/vibtools-docs.schema.json",
+  "schemaVersion": 1,
+  "docsType": "developer",
+  "slug": "updatepilot",
+  "title": "UpdatePilot",
+  "category": "Developer Tools",
+  "description": "Node.js library for GitHub Releases discovery, Docker candidate updates, health checks, and traffic-router-assisted rollback.",
+  "version": "0.0.1",
+  "accentColor": "#2563EB",
+  "docsPath": "docs",
+  "branch": "main",
+  "ctaLabel": "GitHub",
+  "ctaUrl": "https://github.com/vibtoolshq/UpdatePilot"
+}

@@ -1,3 +1,9 @@
+---
+title: "Router and Application Integration"
+description: "Traffic router contract, Express integration, and health checks."
+order: 3
+---
+
 # Integration: traffic router, admin endpoint, and Express example
 
 ## Traffic router contract

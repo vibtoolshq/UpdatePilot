@@ -1,3 +1,9 @@
+---
+title: "Basic Usage"
+description: "Release checking, deployment results, and rollback handling."
+order: 1
+---
+
 # Engine usage and result handling
 
 `UpdatePilot` checks eligible GitHub releases, deploys a candidate if an update is needed, probes the **candidate** through an injected router or custom adapter, switches traffic, and finalizes the Docker container. The returned `status` is a discriminant, not a boolean.

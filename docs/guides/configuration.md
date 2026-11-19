@@ -1,3 +1,9 @@
+---
+title: "Configuration"
+description: "Validated configuration fields and defaults."
+order: 2
+---
+
 # Configuration reference
 
 `defineConfig(userConfig)` validates known keys, resolves defaults, normalizes a leading `v` in `currentVersion`, returns a deeply frozen object, and throws `ConfigError` for invalid input. `validateConfig(resolvedConfig)` revalidates an already-resolved config and returns `true`; it does **not** accept arbitrary unresolved user config as a substitute.

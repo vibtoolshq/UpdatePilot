@@ -1,3 +1,9 @@
+---
+title: "Documentation Validation and Coverage"
+description: "Source-to-documentation audit evidence and outstanding limitations."
+order: 99
+---
+
 # Documentation Coverage and Validation Report
 
 **Audit date:** 2026-11-19
