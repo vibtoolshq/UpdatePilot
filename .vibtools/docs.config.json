@@ -11,5 +11,6 @@
   "docsPath": "docs",
   "branch": "main",
   "ctaLabel": "GitHub",
-  "ctaUrl": "https://github.com/vibtoolshq/UpdatePilot"
+  "ctaUrl": "https://github.com/vibtoolshq/UpdatePilot",
+  "logoPath": ".vibtools/logo.png"
 }
